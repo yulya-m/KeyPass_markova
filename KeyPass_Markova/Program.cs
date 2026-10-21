@@ -21,4 +21,4 @@ app.UseSwaggerUI(c =>
 {
 	c.SwaggerEndpoint("/swagger/v1/swagger.json", "Инструментарий");
 });
-app.Run();
+app.Run() ;

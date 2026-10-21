@@ -12,7 +12,7 @@ namespace KeyPass_Markova.Classes
 		protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 		{
 			optionsBuilder.UseMySql(
-				"server=127.0.0.1;uid=rood;pwd=;database=Storage;",
+				"server=127.0.0.1;uid=root;pwd=;database=Storage;",
 				new MySqlServerVersion(new Version(8,0,11)));
 		}
 	}
